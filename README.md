@@ -44,7 +44,6 @@ dsn := "host=localhost user=postgres password=postgres dbname=task_manager port=
 go run main.go
 ```
 
----
 
 ## Примеры тестирования API
 
@@ -75,7 +74,6 @@ curl http://localhost:8080/tasks
 curl -X DELETE http://localhost:8080/tasks/1
 ```
 
----
 
 ## Пример JSON-ответа
 
@@ -90,6 +88,4 @@ curl -X DELETE http://localhost:8080/tasks/1
 }
 ```
 
----
 
-Проект создан в учебных целях.
